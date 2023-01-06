@@ -1,0 +1,18 @@
+DIA 2 - Conhecendo Cybersecurity (2)
+Recomendo exercitar sua escrita, escrevendo um relatório sobre a sala 'Intro to Offensive Security'.
+
+
+
+Relatório
+
+Para acessar o laboratório: https://tryhackme.com/room/introtooffensivesecurity
+
+Task 1 - Hacking your first machine
+
+É apresentado um sistema bancário ao qual iremos ter que acessar e realizar transações que seria uma falha de segurança
+A plataforma nos apresenta um terminal para poder executar comandos e assim escalar nessa falha, o comando utilizado é:
+
+gobuster -u <target> -w wordlist.txt dir
+
+É possível visualizar que na url podemos acessar com o caminho /bank-transfer, assim executando uma transferência bancária não autorizada
+A flag para o primeiro desafio é: Bank-Hacked.
